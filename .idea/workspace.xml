@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f2e9aeb-022b-4a66-9501-a4614190ad21" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V5641Xp0xhNuNH8qhMzTxK8ul6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../guess" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="gomoku" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="gomoku" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pygomoku" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f2e9aeb-022b-4a66-9501-a4614190ad21" name="Default Changelist" comment="" />
+      <created>1576530414338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576530414338</updated>
+      <workItem from="1576530416900" duration="1328000" />
+      <workItem from="1576532020049" duration="5761000" />
+      <workItem from="1576552709424" duration="1227000" />
+      <workItem from="1576583966769" duration="1603000" />
+      <workItem from="1576590753930" duration="34000" />
+      <workItem from="1576591911844" duration="1198000" />
+      <workItem from="1576593200065" duration="7460000" />
+      <workItem from="1576631391767" duration="48000" />
+      <workItem from="1576678493114" duration="680000" />
+      <workItem from="1576718678134" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="652" y="246" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576584584259">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="652" y="246" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1576584584259" />
+    <state x="702" y="244" width="524" height="595" key="FileChooserDialogImpl" timestamp="1576631437533">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="702" y="244" width="524" height="595" key="FileChooserDialogImpl/0.34.1920.1046@0.34.1920.1046" timestamp="1576631437533" />
+    <state x="349" y="89" key="SettingsEditor" timestamp="1576679167359">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="349" y="89" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1576679167359" />
+    <state x="497" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1576532021552">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="497" y="340" key="com.intellij.ide.util.TipDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1576532021552" />
+    <state x="543" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1576536782485">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="543" y="45" width="840" height="1034" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1576536782485" />
+  </component>
+</project>

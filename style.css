@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background: tan;
+}
+table {
+    border-spacing: 0 0;
+    border: 1px solid black;
+    z-index: 1;
+}
+td {
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+}
+div.block {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    flex: 1;
+}
+div.white {
+    background: #FFF;
+    border-radius: 70%;
+}
+div.black {
+    background: #000;
+    border-radius: 70%;
+    border: 1px solid black;
+}
+.playerBox {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 35px;
+    left: 20px;
+    background: #000;
+    color: #FFF;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 12px 12px 15px rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}

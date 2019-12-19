@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Gomoku</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+    <div class="playerBox">
+        <h1>{{currentPlayer}}</h1>
+    </div>
+    <table >
+        <tr v-for="slots in board">
+            <td v-for="slot in slots"
+                @click="dropPiece($index, $parent.$index)"
+                >
+                {{slot}}
+                <div class="block"
+                     v-bind:class=
+                             "{ 'white': isWhite($index, $parent.$index),
+                        'black': isBlack($index, $parent.$index)}"></div>
+            </td>
+        </tr>
+    </table>
+</div>
+<!-- partial -->
+<script src='./vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
