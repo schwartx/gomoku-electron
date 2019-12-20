@@ -134,7 +134,7 @@ class Game(object):
 
     def __init__(self, board, player1, player2):
         self.board = board
-            # set start_player=0 for human first
+        # set start_player=0 for human first
         start_player = 0
         self.board.init_board(start_player)
         p1, p2 = self.board.players
@@ -153,6 +153,3 @@ class Game(object):
 
         end, winner = self.board.game_end()
         return location, end, winner
-
-#         if end:
-#             return 0,0,winner

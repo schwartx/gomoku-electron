@@ -10,21 +10,16 @@ class Play:
         policy_param = pickle.load(open('best_policy_8_8_5.model', 'rb'),
                                                             encoding='bytes')
         best_policy = PolicyValueNetNumpy(8, 8, policy_param)
-        mcts_player = MCTSPlayer(best_policy.policy_value_fn, c_puct=5, n_playout=400)
+        mcts_player = MCTSPlayer(best_policy.policy_value_fn, c_puct=10, n_playout=1000)
         human = Human()
 
         self.game = Game(Board(width=8, height=8, n_in_row=5), human, mcts_player)
         # self.turn = True
 
     def step(self, location=None):
-        if location==None:
-            location, end, winner = self.game.play()
-#             print(location[0], location[1], winner)
-            end = 1 if end else 0
-            print(location[0],location[1], end, winner)
-        else:
-            _, end, winner = self.game.play(location)
-#         return location, end, winner
+        location, end, winner = self.game.play(location)
+        end = 1 if end else 0
+        return location, end, winner
 
 
 p = Play()
@@ -37,5 +32,9 @@ while True:
     else:
         location = None
 
-#     location_next, end, winner =
-    p.step(location)
+    location, end, winner = p.step(location)
+    if not turn:
+        print(location[0],location[1], end, winner)
+    elif winner != -1:
+        print(location[0],location[1], end, winner)
+        break

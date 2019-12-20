@@ -37,14 +37,14 @@ div.black {
     border-radius: 70%;
     border: 1px solid black;
 }
-.playerBox {
+#playerBox {
     position: absolute;
     width: 200px;
     height: 200px;
     bottom: 35px;
     left: 20px;
-    background: #000;
-    color: #FFF;
+    background: #FFF;
+    color: #000;
     border-radius: 50%;
     z-index: 10;
     box-shadow: 12px 12px 15px rgba(0,0,0,0.6);
